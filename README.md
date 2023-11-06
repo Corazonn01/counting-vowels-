@@ -23,6 +23,5 @@ def count_vowels(input_string):
             vowel_count += 1
     
     return vowel_count
-
 my_string = str(input("enter your message here, and we will count the amount of vowels: "))
 print("Number of vowels in the string:", count_vowels(my_string))
